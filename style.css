@@ -37,6 +37,7 @@ main{
     background-color: hsl(202.5, 55%, 95%);
     border-radius: 1rem;
     padding:1rem;
+    box-shadow: 3px 3px 18px hsl(202.5, 25%, 80%) ;
 }
 
 #hero{
@@ -72,9 +73,16 @@ section{
     min-width: 320px;
 }
 
-img{
+#primary{
     width:100%;
     border-radius: 3rem;
+    box-shadow: 3px 3px 18px hsl(202.5, 25%, 70%) ;
+}
+
+#secondary{
+    width:100%;
+    border-radius: 3rem;
+    box-shadow: 3px 3px 18px hsl(202.5, 25%, 20%) ;
 }
 
 #process li::marker{
