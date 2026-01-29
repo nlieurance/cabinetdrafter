@@ -1,0 +1,142 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:100vh;
+    scroll-snap-type: mandatory;
+    overflow-y: scroll;
+    margin:0px;
+}
+
+main{
+    width:100%;
+    margin: auto;
+    height:100%;
+    align-self: center;
+}
+
+#tagline{
+    font-weight: bold;
+    color: hsl(202.5, 91.43%, 35%);
+}
+
+.center{
+    text-align: center;
+    width:100%;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(242px,1fr));
+    gap:1rem;
+    align-items: start;
+    max-width:1028px;
+    width:100%; 
+    margin:auto;
+}
+
+.card{
+    background-color: hsl(202.5, 55%, 95%);
+    border-radius: 1rem;
+    padding:1rem;
+}
+
+#hero{
+    background-color: hsl(202.5, 55%, 95%) ;
+}
+
+#services{
+    min-height:100%;
+}
+
+section{
+    min-height:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding:1rem;
+    align-content: center;
+    justify-content: center;
+}
+
+#hero{
+    align-items: center;
+}
+
+.left{
+    width:40%;
+    min-width: 320px;
+}
+
+.right{
+    width:50%;
+    min-width: 320px;
+}
+
+img{
+    width:100%;
+    border-radius: 3rem;
+}
+
+#process li::marker{
+    font-weight: bold;
+}
+
+#how-we-work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #032B43;
+    color:white;
+}
+
+input[type=text]{
+    width: 75%;
+    height:3em;
+}
+
+input[type=button]{
+    width: fit-content;
+    padding:1rem;
+}
+
+select{
+    width: 75%;
+    height:3em;
+}
+
+#contact-form{
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+input[type=checkbox]{
+    scale:1.5;
+
+}
+
+textarea{
+    width:75%;
+    height:108px;
+    padding:1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrap{
+    max-width: 1028px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin:auto;
+    justify-content: center;
+
+}
