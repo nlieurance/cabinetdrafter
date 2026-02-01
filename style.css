@@ -1,157 +1,126 @@
-body{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height:100vh;
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
     scroll-snap-type: mandatory;
     overflow-y: scroll;
-    margin:0px;
+    margin: 0px;
 }
 
-h1{
+/* the main heading */
+h1 {
     font-size: 3rem;
 }
 
-main{
-    width:100%;
+/* the div that holds all the page content */
+main {
+    width: 100%;
     margin: auto;
-    height:100%;
+    height: 100%;
     align-self: center;
 }
 
-#tagline{
+/* the blue text under the big heading */
+#tagline {
     font-weight: bold;
     color: hsl(202.5, 91.43%, 35%);
 }
 
-.center{
+/* a class used to center text and other content */
+.center {
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 
-.cards{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(242px,1fr));
-    gap:1rem;
+/* the div that holds the services cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(242px, 1fr));
+    gap: 1rem;
     align-items: start;
-    max-width:1028px;
-    width:100%; 
-    margin:auto;
+    max-width: 1028px;
+    width: 100%;
+    margin: auto;
 }
 
-.card{
+/* the cards that explain services */
+.card {
     background-color: hsl(202.5, 55%, 95%);
     border-radius: 1rem;
-    padding:1rem;
-   
+    padding: 1rem;
+
 }
 
-#hero{
-    background-color: hsl(202.5, 55%, 95%) ;
+/* the big div at the top of the page with the main heading */
+#hero {
+    background-color: hsl(202.5, 55%, 95%);
+    align-items: center;
 }
 
-#services{
-    min-height:100%;
+/* the div with services content */
+#services {
+    min-height: 100%;
 }
 
-section{
-    min-height:100%;
+/* the divs that hold content, divided up into sections */
+section {
+    min-height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:1rem;
-    padding:1rem;
+    gap: 1rem;
+    padding: 1rem;
     align-content: center;
     justify-content: center;
 }
 
-#hero{
-    align-items: center;
-}
-
-.left{
-    width:40%;
+/* the left column of sections */
+.left {
+    width: 40%;
     min-width: 320px;
 }
 
-.right{
-    width:50%;
+/* the right column of sections */
+.right {
+    width: 50%;
     min-width: 320px;
 }
 
-#primary{
-    width:100%;
+/* the main image */
+#primary {
+    width: 100%;
     border-radius: 3rem;
     /*box-shadow: 3px 3px 18px hsl(202.5, 25%, 70%) ;*/
 }
 
-#secondary{
-    width:100%;
+/* the image in the section about my process */
+#secondary {
+    width: 100%;
     border-radius: 2rem;
 }
 
-#process li::marker{
+/* the numbers for the list in the section about my process */
+#process li::marker {
     font-weight: bold;
 }
 
-#how-we-work{
+/* the section about my process */
+#how-we-work {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #032B43;
-    color:white;
+    color: white;
 }
 
-input[type=text]{
-    width: 75%;
-    height:3em;
-}
-
-input[type=button]{
-    width: fit-content;
-    padding:1rem;
-}
-
-select{
-    width: 75%;
-    height:3em;
-}
-
-#contact-form{
-    padding:1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-form{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
-}
-
-input[type=checkbox]{
-    scale:1.5;
-
-}
-
-textarea{
-    width:75%;
-    height:108px;
-    padding:1rem;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.wrap{
+/* a narrower div inside sections for big displays */
+.wrap {
     max-width: 1028px;
     min-width: 320px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:1rem;
-    margin:auto;
+    gap: 1rem;
+    margin: auto;
     justify-content: center;
 
-}
-
-.submit-button{
-    background-color:#032B43;
 }
